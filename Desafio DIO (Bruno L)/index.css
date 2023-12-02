@@ -1,0 +1,86 @@
+/*Geral*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1, h2{
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(107, 181, 238), rgb(55, 132, 192));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    color: white;
+}
+.button{
+    background-color: transparent;
+    color: rgb(55, 132, 192);
+    font-size: 15px;
+    border: 2px solid #1471b8;
+    width: 200px;
+    padding: 10px 10px;
+}
+/*----------------------------------------------------------*/
+/*Fundo*/
+header{
+    background-image: url(./assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid #1471b8;
+    height: 400px;
+    overflow: auto;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*----------------------------------------------------------*/
+/*Módulos*/
+#course-content{
+    background-size: 100px;
+    padding: 30px;
+}
+.modules-list{
+    text-align: 100px;
+}
+.module{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin: 10px 10px;
+    margin-left: 640px;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 50px;
+    border: 2px solid #1471b8;
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 5px black;
+}
+span{
+    color: #1471b8;
+    background-color: transparent;
+}
+/*----------------------------------------------------------*/
+/*Section*/
+#transform-world{
+    height: 300px;
+    font-size: large;
+    font-weight: 900;
+    text-shadow: 3px 3px #1471b8;
+    text-align: left;
+    padding: left;
+    background-image: url(./assets/images/woman-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    border: 1px solid #1471b8;
+    overflow: auto;
+}
+/*----------------------------------------------------------*/
+/*Evolua e encare*/
+footer{
+    padding: 50px;
+    border: 1px solid #1471b8;
+    background-image: linear-gradient(black, rgba(0, 29, 51, 0.5));
+    overflow: auto;
+}
